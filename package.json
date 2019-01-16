@@ -8,7 +8,7 @@
     "http-server": "^0.11.1"
   },
   "scripts": {
-    "es6": "./node_modules/.bin/http-server -c-l .",
+    "es6": "./node_modules/.bin/http-server -cl .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
