@@ -1,0 +1,23 @@
+{
+  "name": "es-features",
+  "version": "1.0.0",
+  "description": "exercices about es6",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "es6": "./node_modules/.bin/http-server -c-l .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MrDataScientist/Typescript-Training"
+  },
+  "author": "tarik en nakdi",
+  "license": "MIT",
+  "keywords": [
+    "typescript"
+  ]
+}
