@@ -1,10 +1,5 @@
-let message = 'hello world';
+const message = 'Hello world!';
 
-if (message){
-    var i:number;
+const sayHello = message => console.log(message);
 
-    for(i=0;i<3;i++){
-        console.log(message + ' '+i);
-    }
-}
-console.log(message);
+sayHello(message);
