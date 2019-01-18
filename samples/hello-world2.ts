@@ -1,9 +1,4 @@
-function BuildPerson(personData){
-
-    const firstName = personData.firstName,
-          lastName = personData.lastName,
-          address = personData.address;
-
+function BuildPerson({firstName,lastName,address}){
     return `${firstName} ${lastName} ${address}`;
 }
 
@@ -12,3 +7,5 @@ const personData = {
     lastName: 'Nakdi',
     address: 'Geroldstr'
 };
+
+BuildPerson(personData);

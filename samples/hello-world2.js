@@ -1,5 +1,5 @@
-function BuildPerson(personData) {
-    var firstName = personData.firstName, lastName = personData.lastName, address = personData.address;
+function BuildPerson(_a) {
+    var firstName = _a.firstName, lastName = _a.lastName, address = _a.address;
     return firstName + " " + lastName + " " + address;
 }
 var personData = {
@@ -7,3 +7,4 @@ var personData = {
     lastName: 'Nakdi',
     address: 'Geroldstr'
 };
+BuildPerson(personData);
