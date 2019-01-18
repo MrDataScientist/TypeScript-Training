@@ -1,10 +1,13 @@
-function BuildPerson(_a) {
-    var firstName = _a.firstName, lastName = _a.lastName, address = _a.address;
+function BuildPerson(_a, address) {
+    var firstName = _a.firstName, lastName = _a.lastName;
+    if (address === void 0) { address = ['']; }
     return firstName + " " + lastName + " " + address;
 }
+var partialAddress = ["Street Name", "street Number", "Po Box"];
+var firstName = 'tarik', lastName = 'nakdi';
 var personData = {
-    firstName: 'Tarik',
-    lastName: 'Nakdi',
-    address: 'Geroldstr'
+    firstName: firstName,
+    lastName: lastName
 };
-BuildPerson(personData);
+var address = partialAddress.concat(['Staples Center']);
+console.log(BuildPerson(personData, address));

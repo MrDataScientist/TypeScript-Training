@@ -1,11 +1,14 @@
-function BuildPerson({firstName,lastName,address}){
+function BuildPerson({firstName,lastName}, address= ['']){
     return `${firstName} ${lastName} ${address}`;
 }
 
+const partialAddress = ["Street Name", "street Number", "Po Box"];
+const firstName = 'tarik',
+    lastName = 'nakdi';
 const personData = {
-    firstName: 'Tarik',
-    lastName: 'Nakdi',
-    address: 'Geroldstr'
+    firstName,
+    lastName
 };
+const address = [...partialAddress,'Staples Center'];
 
-BuildPerson(personData);
+console.log(BuildPerson(personData,address));
