@@ -20,3 +20,7 @@ console.log("Hero outside the block", superman);
 ## EcmaScript features
 
 #### let & const
+
+#### dependencies
+* npm i @types/node --save
+* npm i @types/lodash --save
