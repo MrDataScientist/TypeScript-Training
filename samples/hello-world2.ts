@@ -1,4 +1,4 @@
-function BuildPerson({firstName,lastName}, ...address){
+function BuildPerson({firstName,lastName}:any, ...address:any[]){
     return `${firstName} ${lastName} ${address}`;
 }
 

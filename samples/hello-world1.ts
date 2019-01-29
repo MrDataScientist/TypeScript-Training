@@ -1,8 +1,8 @@
-function Person(name){
-    this.name = name;
-    this.sayHi = function(){
-        setTimeout(()=>{
-            console.log('Hello my name is'+ this.name);
+function Person(name: any) {
+    this.name = name
+    this.sayHi = function() {
+        setTimeout(() => {
+            console.log('Hello my name is'+ this.name)
         })
     }
 }

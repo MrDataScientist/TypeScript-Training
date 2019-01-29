@@ -24,3 +24,15 @@ console.log("Hero outside the block", superman);
 #### dependencies
 * npm i @types/node --save
 * npm i @types/lodash --save
+* npm i ts-node -D
+######  Then add this line of code to the script in the package.json file:
+* "start": ",/node_modules/.bin/ts-node ./server/server.ts"
+
+* npm i sequelize -S
+###### then install the type definitions for sequelize
+* npm i @types/sequelize -D
+###### Then in order to use Postgres you will need to install pg
+* npm i pg -S
+
+### Run the server
+* npm start
